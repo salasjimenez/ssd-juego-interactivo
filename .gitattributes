@@ -1,0 +1,22 @@
+# Line endings reproducibles en Windows, Linux y CI.
+* text=auto
+*.cs text eol=lf
+*.razor text eol=lf
+*.css text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.props text eol=lf
+*.targets text eol=lf
+*.csproj text eol=lf
+*.sln text eol=lf
+*.slnx text eol=lf
+*.svg text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.pdf binary
+*.png binary
+*.jpg binary
+*.webp binary
+*.zip binary

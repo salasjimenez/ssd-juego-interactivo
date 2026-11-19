@@ -1,0 +1,77 @@
+@page "/"
+
+<PageTitle>SAMURAI | El dojo del código</PageTitle>
+
+<div class="home-page">
+    <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+            <p class="eyebrow hero-eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span> UN NUEVO CAMINO PARA APRENDER TECNOLOGÍA</p>
+            <h1 id="hero-title">La disciplina de aprender.<br /><span class="hero-accent">El arte de dominar el código.</span></h1>
+            <p class="hero-description">
+                Convierte la programación y la Ingeniería de Sistemas en tu propia aventura.
+                Recorre un camino de aprendizaje, supera desafíos y encuentra tu especialidad.
+            </p>
+
+            <div class="hero-actions">
+                <a class="button button-primary" href="#caminos">Conocer los caminos <span aria-hidden="true">↗</span></a>
+                <NavLink class="button button-secondary" href="/estado">Ver avance del proyecto</NavLink>
+            </div>
+
+            <div class="hero-metrics" aria-label="Alcance previsto del proyecto">
+                <div><strong>@ProjectDefinition.AcademicLevels</strong><span>NIVELES</span></div>
+                <div><strong>@ProjectDefinition.AcademicCycles</strong><span>CICLOS</span></div>
+                <div><strong>@ProjectDefinition.ProfessionalClans</strong><span>CLANES</span></div>
+            </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+            <div class="hero-visual-frame">
+                <div class="visual-sun"></div>
+                <div class="visual-ring visual-ring-outer"></div>
+                <div class="visual-ring visual-ring-inner"></div>
+                <div class="visual-crest">
+                    <img src="images/samurai-logo.svg" alt="" width="264" height="264" />
+                </div>
+                <span class="visual-vertical-label">MENTE · DISCIPLINA · CÓDIGO</span>
+                <div class="visual-stamp">侍</div>
+                <div class="visual-bottom-label"><span>修行</span><span>THE PATH OF THE DEVELOPER</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="paths-section" id="caminos" aria-labelledby="paths-title">
+        <div class="section-intro">
+            <div>
+                <p class="eyebrow">DOS CAMINOS · UNA SOLA FILOSOFÍA</p>
+                <h2 id="paths-title">Elige tu senda.</h2>
+            </div>
+            <p>Aprende desde los fundamentos o especialízate en un rol profesional. Ambas rutas forman parte de la visión de SAMURAI.</p>
+        </div>
+
+        <div class="path-grid">
+            <article class="path-card path-card-academic">
+                <div class="path-card-topline"><span class="path-number">01 / APRENDIZAJE</span><span class="path-symbol" aria-hidden="true">道</span></div>
+                <h3>Camino del Aprendiz</h3>
+                <p>Diez ciclos que recrean la carrera de Ingeniería de Sistemas. Cada región culminará con un jefe final y un proyecto integrador.</p>
+                <div class="path-details"><span>@ProjectDefinition.AcademicLevels niveles planificados</span><span>@ProjectDefinition.AcademicCycles ciclos</span></div>
+                <span class="path-label">EN DESARROLLO · ETAPAS 7–40</span>
+            </article>
+
+            <article class="path-card path-card-professional">
+                <div class="path-card-topline"><span class="path-number">02 / ESPECIALIZACIÓN</span><span class="path-symbol" aria-hidden="true">技</span></div>
+                <h3>Rutas Profesionales</h3>
+                <p>Selecciona un clan tecnológico y progresa desde Junior hasta Senior mediante retos técnicos, proyectos y evaluaciones prácticas.</p>
+                <div class="path-details"><span>@ProjectDefinition.ProfessionalClans clanes previstos</span><span>3 rangos profesionales</span></div>
+                <span class="path-label">EN DESARROLLO · ETAPAS 41–45</span>
+            </article>
+        </div>
+    </section>
+
+    <section class="principles" aria-label="Principios de SAMURAI">
+        <div><span aria-hidden="true" class="principle-marker">✦</span><strong>Aprendizaje práctico</strong><span>Retos cortos y progreso gradual</span></div>
+        <div><span aria-hidden="true" class="principle-marker">✦</span><strong>Privacidad por diseño</strong><span>Sin cuentas ni rankings sociales</span></div>
+        <div><span aria-hidden="true" class="principle-marker">✦</span><strong>Acceso gratuito</strong><span>Educación disponible para todos</span></div>
+    </section>
+
+    <p class="preview-notice"><span aria-hidden="true">●</span> Vista visual preliminar de la Etapa 2. Las lecciones, el progreso local y la gamificación aún no están disponibles.</p>
+</div>

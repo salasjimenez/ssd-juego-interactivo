@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Samurai.Core</AssemblyName>
+    <RootNamespace>Samurai.Core</RootNamespace>
+  </PropertyGroup>
+</Project>

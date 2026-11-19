@@ -1,0 +1,28 @@
+# .NET: binarios y artefactos generados
+**/bin/
+**/obj/
+**/TestResults/
+artifacts/
+publish/
+
+# IDE y sistema operativo
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.sln.docstates
+.DS_Store
+Thumbs.db
+
+# Archivos privados / temporales
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.bak
+
+# Cache de Python
+**/__pycache__/
+*.py[cod]

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="samuraiTitle samuraiDescription">
+  <title id="samuraiTitle">SAMURAI</title>
+  <desc id="samuraiDescription">Emblema original de casco samurai geometrico con simbolo de codigo en dorado.</desc>
+  <!-- Un unico emblema vectorial original. Area de seguridad para adaptar a PWA. -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <!-- Cuernos laterales: silueta de kabuto. -->
+    <path d="M187 190 C154 178 125 148 105 111 C107 177 127 222 161 243 L198 233 Z" fill="#C83536" stroke="#151923" stroke-width="11"/>
+    <path d="M325 190 C358 178 387 148 407 111 C405 177 385 222 351 243 L314 233 Z" fill="#C83536" stroke="#151923" stroke-width="11"/>
+    <!-- Cupula del casco. -->
+    <path d="M159 264 L167 209 C174 157 207 133 256 130 C305 133 338 157 345 209 L353 264 Z" fill="#C83536" stroke="#151923" stroke-width="12"/>
+    <!-- Cresta central, asociada a crecimiento y maestria. -->
+    <path d="M256 105 L274 137 L256 160 L238 137 Z" fill="#F0C971" stroke="#151923" stroke-width="7"/>
+    <!-- Visera protectora con contraste de alto impacto. -->
+    <path d="M141 255 Q256 232 371 255 L357 289 Q256 275 155 289 Z" fill="#151923" stroke="#F0C971" stroke-width="10"/>
+    <!-- Simbolo de programacion, simple y legible. -->
+    <path d="M242 186 L222 205 L242 224 M270 186 L290 205 L270 224" fill="none" stroke="#F8D78D" stroke-width="16"/>
+    <!-- Proteccion lateral. -->
+    <path d="M159 292 L181 290 L201 356 L176 377 C155 358 144 322 159 292 Z" fill="#C83536" stroke="#151923" stroke-width="10"/>
+    <path d="M353 292 L331 290 L311 356 L336 377 C357 358 368 322 353 292 Z" fill="#C83536" stroke="#151923" stroke-width="10"/>
+    <!-- Menpo, mascara del samurai. -->
+    <path d="M186 291 Q256 281 326 291 L317 348 L283 391 L256 411 L229 391 L195 348 Z" fill="#151923" stroke="#C83536" stroke-width="12"/>
+    <!-- Ojos y puente central. -->
+    <path d="M209 322 L241 332 M303 322 L271 332" fill="none" stroke="#F0C971" stroke-width="12"/>
+    <path d="M256 335 L256 365" fill="none" stroke="#C83536" stroke-width="10"/>
+    <!-- Tres trazos del menpo. -->
+    <path d="M237 371 L275 371 M242 385 L270 385" fill="none" stroke="#F0C971" stroke-width="7"/>
+  </g>
+</svg>

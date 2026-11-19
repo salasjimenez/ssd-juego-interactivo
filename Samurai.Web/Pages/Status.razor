@@ -1,0 +1,44 @@
+@page "/estado"
+
+<PageTitle>SAMURAI | Estado técnico</PageTitle>
+
+<section class="status-page" aria-labelledby="status-title">
+    <p class="eyebrow">TRANSPARENCIA DEL PROYECTO · V2</p>
+    <h1 id="status-title">El dojo se está construyendo.</h1>
+    <p class="status-intro">Esta versión demuestra la estructura de la solución y el funcionamiento de Blazor WebAssembly. No representa un MVP jugable.</p>
+
+    <div class="status-summary">
+        <div><span class="status-summary-label">ETAPA ACTUAL</span><strong>02 / @ProjectDefinition.TotalStages</strong></div>
+        <div><span class="status-summary-label">PLATAFORMA</span><strong>Blazor WASM</strong></div>
+        <div><span class="status-summary-label">ARQUITECTURA</span><strong>3 proyectos .NET</strong></div>
+    </div>
+
+    <h2 class="status-section-title">Estructura actual</h2>
+    <div class="status-grid">
+        <article class="status-card">
+            <span class="status-flag">BASE DISPONIBLE</span>
+            <h3>Samurai.Web</h3>
+            <p>Interfaz con componentes Razor, enrutamiento local y una estructura visual adaptable.</p>
+        </article>
+        <article class="status-card">
+            <span class="status-flag">BASE DISPONIBLE</span>
+            <h3>Samurai.Core</h3>
+            <p>Biblioteca independiente para alojar las reglas del dominio en las próximas etapas.</p>
+        </article>
+        <article class="status-card">
+            <span class="status-flag">PRUEBAS PREPARADAS</span>
+            <h3>Samurai.Tests</h3>
+            <p>Proyecto xUnit con pruebas unitarias iniciales. Su resultado se verifica en la terminal.</p>
+        </article>
+    </div>
+
+    <div class="status-warning">
+        <div>
+            <strong>Funciones todavía no implementadas</strong>
+            <p>MudBlazor, lecciones, XP, clanes jugables, almacenamiento del progreso, PWA y ejecución de código llegarán en las etapas previstas.</p>
+        </div>
+        <span class="status-warning-index">PRÓXIMO: ETAPA 03</span>
+    </div>
+
+    <NavLink href="/" class="button button-secondary">← Regresar al inicio</NavLink>
+</section>
